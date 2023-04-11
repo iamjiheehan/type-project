@@ -12,10 +12,12 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true, //함수에서 return 빼먹으면 에러내기 
+    "noFallthroughCasesInSwitch": true, //switch문 이상하면 에러내기 
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "removeComments": true, //컴파일시 주석제거 
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
