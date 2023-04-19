@@ -4,25 +4,9 @@ import './App.css';
 
 function App() {
 
-  interface Student {
-    name : string;
-  }
-
-  interface Student {
-    score : number;
-  }
-
-  const student : Student = {
-    name : "John",
-    score : 100,
-  }  
-
-  console.log(student);
-  
-
   return (
     <div className="App">
-      
+      <h2>안녕</h2>
     </div>
   );
 }
