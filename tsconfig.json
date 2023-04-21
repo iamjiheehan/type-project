@@ -20,9 +20,11 @@
     "removeComments": true, //컴파일시 주석제거 
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react"
   },
   "include": [
-    "src"
-  ]
+    "src/**/*",
+    "types.d.ts"
+  ],
+  "types": ["styled-components"]
 }

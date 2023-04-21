@@ -1,14 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header';
+import Project from './components/project';
+import GlobalStyles from './Theme/GlobalStyles';
+import { Container } from 'react-bootstrap';
 
 function App() {
-
   return (
     <div className="App">
-      <h2>안녕</h2>
+      <GlobalStyles />
+      <Container>
+        <Header />
+        <Project />
+      </Container>
     </div>
   );
 }
-
 export default App;
