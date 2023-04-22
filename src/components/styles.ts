@@ -1,6 +1,6 @@
 export const containerStyle: React.CSSProperties = {
     display: 'flex',
-    justifyContent: 'space-around',
+    justifyContent: 'space-evenly',
     alignItems: 'center',
 };
     

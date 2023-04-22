@@ -1,10 +1,10 @@
 import React from 'react';
-import myImage from '../assets/images/myImage.jpg';
 import js from '../assets/images/javascript.png';
 import css from '../assets/images/css.png';
 import sass from '../assets/images/sass.png';
 import html from '../assets/images/html.png';
 import styled from 'styled-components';
+
 
 import { containerStyle, headerStyle, buttonStyle, imageStyle, introStyle,textStyle, iconStyle, gifStyle, titleStyle, linkStyle, linkHoverStyle } from './styles';
 
@@ -20,7 +20,7 @@ export default function Project() {
     return (
         <>
             <div style={headerStyle}>
-                <h2>개인 프로젝트</h2>
+                <h2 style={{textAlign:'center'}}>개인 프로젝트</h2>
                 <div style={titleStyle}>
                     <h3 style={titleStyle}>JIHEE BREAKFAST</h3>
                     <img style={iconStyle} src={js} alt="JavaScript" />
@@ -41,7 +41,7 @@ export default function Project() {
                     <h4> - iframe 태그를 이용한 구글지도를 연동했습니다.</h4>
                 </div>
                 </div>
-                <hr />
+                <hr style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto' }} />
                 <div>
             </div>
         </>
