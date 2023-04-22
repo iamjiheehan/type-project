@@ -68,3 +68,12 @@ export const linkStyle = {
 export const linkHoverStyle = {
     color: '#2980b9',
 };
+
+export const contentBox: React.CSSProperties = {
+    border: '1px solid #ccc',
+    padding: '20px',
+    borderRadius: '10px',
+    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+    backgroundColor: '#ffffff',
+    margin: '20px',
+};
