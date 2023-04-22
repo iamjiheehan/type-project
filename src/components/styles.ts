@@ -13,7 +13,7 @@ export const introStyle: React.CSSProperties = {
 export const titleStyle: React.CSSProperties = {
     display: 'flex',
     justifyContent: 'flex-start',
-    alignItems: 'center',
+    alignItems: 'flex-start',
 };
 
 export const headerStyle: React.CSSProperties = {
@@ -26,7 +26,6 @@ export const textStyle: React.CSSProperties = {
 };
 
 export const buttonStyle: React.CSSProperties = {
-    // flex: '0 0 100px',
     padding: '10px 15px',
     height: '40px',
     border: '0',
@@ -38,35 +37,34 @@ export const buttonStyle: React.CSSProperties = {
 };
     
 export const imageStyle: React.CSSProperties = {
-    flex: '0 0 200px',
-    height: '200px',
+    height: '150px',
     borderRadius: '200px',
 };
 
 export const iconStyle: React.CSSProperties = {
     width: '30px',
-    // paddingRight: '10px',
-    // paddingTop: '10px',
+    marginLeft: '10px',
 };
 
 export const gifStyle: React.CSSProperties = {
     height: '200px',
-    paddingBottom: '1rem',
-    paddingTop: '1rem',
+    marginBottom: '1rem',
+    marginTop: '1rem',
 };
 
 export const linkStyle = {
+    marginRight: '1rem',
     textDecoration: 'none',
     color: 'black',
     fontWeight: 'bold',
     cursor: 'pointer',
     boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.5)',
     transition: 'color 0.2s ease-out',
-    // marginRight: '2rem',
 };
 
 export const linkHoverStyle = {
     color: '#2980b9',
+    textDecoration: 'none',
 };
 
 export const contentBox: React.CSSProperties = {
@@ -75,5 +73,14 @@ export const contentBox: React.CSSProperties = {
     borderRadius: '10px',
     boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
     backgroundColor: '#ffffff',
-    margin: '20px',
+    margin: '4rem 1rem',
+};
+
+
+export const absoluteCenter : React.CSSProperties =  {
+    textAlign:'center',
+    position: 'absolute',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    backgroundColor: 'white',
 };
