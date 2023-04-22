@@ -2,8 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
     html, body, div, p, span {
-        /* margin: 0; */
-        /* padding: 0; */
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
         font-family: 'SUIT-Regular', sans-serif;
     }
