@@ -16,32 +16,59 @@ const StyledLink = styled.a`
 
 export default function Project() {
     return (
-        <div>
+        <>
+            <div style={headerStyle}>
+                <h2 style={absoluteCenter}>학력사항</h2>
+                <div style={contentBox}>
+                    <div style={columnStyle}>
+                        <h4>
+                            한국방송통신대학교 컴퓨터과학과 <strong>졸업</strong> (3.4 / 4.5)
+                        </h4>
+                        <h4>
+                            2019.09 ~ 2022.08
+                        </h4>
+                        <hr style={{ width: '50%', margin:'3rem auto'}} />
+                        <h4>
+                            선문대학교 영어학과 중퇴
+                        </h4>
+                        <h4>
+                            2013.03 ~ 2013.12
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div style={headerStyle}>
+                <h2 style={absoluteCenter}>자격사항</h2>
+                <div style={contentBox}>
+                    <div style={columnStyle}>
+                        <h4>
+                            <strong>SQLD</strong> 개발자 자격증
+                        </h4>
+                        <h4>
+                            2022.06.24 취득
+                        </h4>
+                    </div>
+                </div>
+            </div>
             <div style={headerStyle}>
                 <h2 style={absoluteCenter}>Contact</h2>
                 <div style={contentBox}>
-                    <>
-                        <div style={columnStyle}>
-                            <div style={introStyle}>
-                                <img style={iconStyle} src={phone} alt="phone" />
-                                <h4 style={{margin:'0'}}> Mobile : 010-8608-8219</h4>
-                            </div>
-                            <div style={introStyle}>
-                                <img style={{ ...iconStyle, width: '35px' }} src={git} alt="git" />
-                                <h4 style={{margin:'0'}}> GitHub : https://github.com/iamjiheehan </h4>
-                            </div>
-                            <div style={introStyle}>
-                                <img style={{ ...iconStyle, width: '150px' }} src={tstory} alt="tstory" />
-                                <h4>  : https://hans-j.tistory.com/ </h4>
-                            </div>
-                            
-                        </div>
-                    </>
+                    <div style={columnStyle}>
+                        <h4>
+                            연락처 :  010-8608-8219
+                        </h4>
+                        <h4>
+                            이메일 : hatrix1014@gmail.com
+                        </h4>
+                        <h4>
+                            Github : <StyledLink href="https://github.com/iamjiheehan" target="_blank">깃허브 바로가기</StyledLink>
+                        </h4>
+                        <h4>
+                            Tistory : <StyledLink href="https://hans-j.tistory.com/" target="_blank">티스토리 바로가기</StyledLink>
+                        </h4>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
-        
+        </>
     );
 }

@@ -16,8 +16,8 @@ function App() {
           <hr />
           <Project />
           <Contact />
+        <h2 style={{textAlign:'center'}}>감사합니다</h2>
         </Container>
-
     </div>
   );
 }

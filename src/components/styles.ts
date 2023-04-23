@@ -23,7 +23,7 @@ export const columnStyle : React.CSSProperties = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     flexWrap: 'wrap',
     margin: '1rem',
 
