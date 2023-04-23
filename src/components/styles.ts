@@ -2,18 +2,31 @@ export const containerStyle: React.CSSProperties = {
     display: 'flex',
     justifyContent: 'space-evenly',
     alignItems: 'center',
+    flexWrap: 'wrap',
 };
     
 export const introStyle: React.CSSProperties = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'flex-end',
+    flexWrap: 'wrap',
+
 };
 
 export const titleStyle: React.CSSProperties = {
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
+};
+
+export const columnStyle : React.CSSProperties = {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    margin: '1rem',
+
 };
 
 export const headerStyle: React.CSSProperties = {
