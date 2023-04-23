@@ -4,7 +4,7 @@ import css from '../assets/images/css.png';
 import sass from '../assets/images/sass.png';
 import html from '../assets/images/html.png';
 import styled from 'styled-components';
-
+import reactIco from '../assets/images/reactIco.png';
 
 import { contentBox, containerStyle, absoluteCenter, headerStyle, buttonStyle, imageStyle, introStyle,textStyle, iconStyle, gifStyle, titleStyle, linkStyle, linkHoverStyle } from './styles';
 
@@ -22,29 +22,93 @@ export default function Project() {
             <div style={headerStyle}>
                 <h2 style={absoluteCenter}>개인 프로젝트</h2>
                 <div style={contentBox}>
-                    <div style={titleStyle}>
-                        <h3 style={titleStyle}>JIHEE'S BREAKFAST</h3>
-                        <img style={iconStyle} src={js} alt="JavaScript" />
-                        <img style={iconStyle} src={css} alt="css" />
-                        <img style={iconStyle} src={html} alt="html" />
-                        <img style={iconStyle} src={sass} alt="sass" />
-                    </div>
-                    <StyledLink href="https://jihee-breakfast-restaurant.netlify.app/" target="_blank">JIHEE'S BREAKFAST 바로가기</StyledLink>
-                    <StyledLink href="https://github.com/iamjiheehan/Breakfast-Website" target="_blank">깃허브 바로가기</StyledLink>
-                    <div>
-                        <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/219938124-8fb4416c-7e94-4806-b1c9-42d2985e28f8.gif" alt="menu" />      
-                        <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/219938128-e9c81522-6ac3-4beb-969f-86d3e3f56e3b.gif" alt="menu" />      
-                        <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/219938111-4de0b317-ed01-4858-9718-ed64c5cac06e.gif" alt="menu" />      
-                    </div>
-                    <div>
-                        <h4> - HTML,CSS/SCSS 만으로 구성된 정적인 웹사이트 입니다.</h4>
-                        <h4> - 반응형 웹사이트로, 메뉴를 클릭하면 해당 메뉴의 상세 정보를 볼 수 있습니다.</h4>
-                        <h4> - iframe 태그를 이용한 구글지도를 연동했습니다.</h4>
-                    </div>
-                    </div>
+                    <>
+                        <div style={titleStyle}>
+                            <h3 style={titleStyle}>JIHEE'S BREAKFAST</h3>
+                            <img style={iconStyle} src={js} alt="JavaScript" />
+                            <img style={iconStyle} src={css} alt="css" />
+                            <img style={iconStyle} src={html} alt="html" />
+                            <img style={iconStyle} src={sass} alt="sass" />
+                        </div>
+                        <StyledLink href="https://jihee-breakfast-restaurant.netlify.app/" target="_blank">JIHEE'S BREAKFAST 바로가기</StyledLink>
+                        <StyledLink href="https://github.com/iamjiheehan/Breakfast-Website" target="_blank">깃허브 바로가기</StyledLink>
+                        <div style={containerStyle}>
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/219938124-8fb4416c-7e94-4806-b1c9-42d2985e28f8.gif" alt="menu" />      
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/219938128-e9c81522-6ac3-4beb-969f-86d3e3f56e3b.gif" alt="menu" />      
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/219938111-4de0b317-ed01-4858-9718-ed64c5cac06e.gif" alt="menu" />      
+                        </div>
+                        <div>
+                            <h4> - HTML,CSS/SCSS 만으로 구성된 정적인 웹사이트 입니다.</h4>
+                            <h4> - 반응형 웹사이트로, 메뉴를 클릭하면 해당 메뉴의 상세 정보를 볼 수 있습니다.</h4>
+                            <h4> - iframe 태그를 이용한 구글지도를 연동했습니다.</h4>
+                        </div>
+                    </>
+                    <hr style={{ width: '50%', margin:'3rem auto'}} />
+                    <>
+                        <div style={titleStyle}>
+                            <h3 style={titleStyle}>VINTERIOR</h3>
+                            <img style={iconStyle} src={js} alt="JavaScript" />
+                            <img style={iconStyle} src={css} alt="css" />
+                            <img style={iconStyle} src={html} alt="html" />
+                            <img style={iconStyle} src={sass} alt="sass" />
+                        </div>
+                        <StyledLink href="https://jihee-vinterior.netlify.app/" target="_blank">VINTERIOR 바로가기</StyledLink>
+                        <StyledLink href="https://github.com/iamjiheehan/vanilla-interior" target="_blank">깃허브 바로가기</StyledLink>
+                        <div style={containerStyle}>
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231810527-e6af320c-bdd1-4972-bb66-c8d7e81fb732.gif" alt="menu" />      
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231810553-15af784a-2387-4145-92ea-2200a0756bae.gif" alt="menu" />      
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231810572-1d4e44db-b073-429f-891c-21934e67c0fd.gif" alt="menu" />      
+                        </div>
+                        <div>
+                            <h4> - 바닐라 자바스크립트만으로 구성된 SPA 웹사이트 입니다. </h4>
+                            <h4> - 미디어 쿼리를 이용한 반응형 웹사이트입니다.</h4>
+                            <h4> - 모바일버전은 업데이트 중입니다.</h4>
+                        </div>
+                    </>
+                    <hr style={{ width: '50%', margin:'3rem auto'}} />
+                    <>
+                        <div style={titleStyle}>
+                            <h3 style={titleStyle}>The Unbookclub</h3>
+                            <img style={iconStyle} src={js} alt="JavaScript" />
+                            <img style={iconStyle} src={css} alt="css" />
+                            <img style={iconStyle} src={html} alt="html" />
+                            <img style={iconStyle} src={sass} alt="sass" />
+                        </div>
+                        <StyledLink href="https://jihee-vinterior.netlify.app/" target="_blank">The Unbookclub 바로가기</StyledLink>
+                        <StyledLink href="https://the-unbook-club.web.app/" target="_blank">깃허브 바로가기</StyledLink>
+                        <div style={containerStyle}>
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231512655-5d531fa7-e3bb-445a-800c-6e9a03cedcc3.gif" alt="menu" />      
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231512888-525fc6ba-6261-4855-bd01-1c43920fdd9f.gif" alt="menu" />      
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231513187-0acc500f-2562-40f0-8ca2-1412eb4ae12e.gif" alt="menu" />      
+                        </div>
+                        <div>
+                            <h4> - 바닐라 자바스크립트만으로 구성된 SPA 웹사이트 입니다. </h4>
+                            <h4> - 미디어 쿼리를 이용한 반응형 웹사이트입니다.</h4>
+                            <h4> - 모바일버전은 업데이트 중입니다.</h4>
+                        </div>
+                    </>
+                    <hr style={{ width: '50%', margin:'3rem auto'}} />
+                    <>
+                        <div style={titleStyle}>
+                            <h3 style={titleStyle}>Portfolio Project</h3>
+                            <img style={iconStyle} src={js} alt="JavaScript" />
+                            <img style={iconStyle} src={css} alt="css" />
+                            <img style={iconStyle} src={html} alt="html" />
+                            <img style={iconStyle} src={reactIco} alt="react" />
+                        </div>
+                        <StyledLink href="https://the-unbook-club.web.app/" target="_blank">깃허브 바로가기</StyledLink>
+                        <div style={containerStyle}>
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231512655-5d531fa7-e3bb-445a-800c-6e9a03cedcc3.gif" alt="menu" />      
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231512888-525fc6ba-6261-4855-bd01-1c43920fdd9f.gif" alt="menu" />      
+                            <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231513187-0acc500f-2562-40f0-8ca2-1412eb4ae12e.gif" alt="menu" />      
+                        </div>
+                        <div>
+                            <h4> - 바닐라 자바스크립트만으로 구성된 SPA 웹사이트 입니다. </h4>
+                            <h4> - 미디어 쿼리를 이용한 반응형 웹사이트입니다.</h4>
+                            <h4> - 모바일버전은 업데이트 중입니다.</h4>
+                        </div>
+                    </>
                 </div>
-                <hr style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto' }} />
-                <div>
             </div>
         </div>
 

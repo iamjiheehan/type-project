@@ -47,7 +47,8 @@ export const iconStyle: React.CSSProperties = {
 };
 
 export const gifStyle: React.CSSProperties = {
-    height: '200px',
+    width: '20rem',
+    height: '10rem',
     marginBottom: '1rem',
     marginTop: '1rem',
 };
@@ -69,7 +70,7 @@ export const linkHoverStyle = {
 
 export const contentBox: React.CSSProperties = {
     border: '1px solid #ccc',
-    padding: '20px',
+    padding: '3rem',
     borderRadius: '10px',
     boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
     backgroundColor: '#ffffff',
