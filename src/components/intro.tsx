@@ -1,14 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
 
-import { contentBox, columnStyle, absoluteCenter, headerStyle,linkStyle, linkHoverStyle } from './styles';
+import StyledLink from './StyledLink';
 
-const StyledLink = styled.a`
-    ${linkStyle}
-    &:hover {
-        ${linkHoverStyle}
-    }
-`;
+
+import { contentBox, columnStyle, absoluteCenter, headerStyle } from './styles';
 
 const Intro: React.FC = () => {
 

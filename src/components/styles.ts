@@ -38,16 +38,6 @@ export const textStyle: React.CSSProperties = {
     paddingRight: '20px',
 };
 
-export const buttonStyle: React.CSSProperties = {
-    padding: '10px 15px',
-    height: '40px',
-    border: '0',
-    background: 'white',
-    color: 'black',
-    fontWeight: 'bold',
-    cursor: 'pointer',
-    boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.5)',
-};
     
 export const imageStyle: React.CSSProperties = {
     height: '150px',
@@ -67,6 +57,7 @@ export const gifStyle: React.CSSProperties = {
 };
 
 export const linkStyle = {
+    padding: '0.5rem',
     marginRight: '1rem',
     textDecoration: 'none',
     color: 'black',

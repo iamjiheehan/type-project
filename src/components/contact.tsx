@@ -1,15 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
 
-import { contentBox, columnStyle, absoluteCenter, headerStyle, linkStyle, linkHoverStyle } from './styles';
+import StyledLink from './StyledLink';
 
+import { contentBox, columnStyle, absoluteCenter, headerStyle } from './styles';
 
-const StyledLink = styled.a`
-    ${linkStyle}
-    &:hover {
-        ${linkHoverStyle}
-    }
-`;
 
 const Project: React.FC = () => {
     return (
@@ -58,7 +52,8 @@ const Project: React.FC = () => {
                 <div style={contentBox}>
                     <div style={columnStyle}>
                         <h5>
-                            <strong>SQLD</strong> 개발자 자격증
+
+                            <StyledLink href="https://drive.google.com/file/d/1kXn6rGmLhnzOvUTcXSH7iZR-NPgNtLDq/view?usp=share_link" target="_blank">SQLD</StyledLink> 개발자 자격증
                         </h5><br />
                         <h5>
                             2022.06.24 취득

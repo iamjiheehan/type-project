@@ -10,25 +10,7 @@ import reduxToolkit from '../assets/images/reduxToolkit.png';
 import github from '../assets/images/github.png';
 import vscode from '../assets/images/vscode.png';
 
-import { contentBox, containerStyle, absoluteCenter, headerStyle, iconStyle, linkStyle } from './styles';
-
-interface StyledLinkProps {
-    href: string;
-    target: string;
-    children: React.ReactNode;
-}
-
-const StyledLink: React.FC<StyledLinkProps> = ({ href, target, children }) => {
-    return (
-        <a href={href} target={target} style={linkStyle}>
-            {children}
-        </a>
-    );
-};
-//FC : function component
-// StyledLinkProps 타입의 props를 받아서 ReactNode를 리턴하는 함수형 컴포넌트
-
-StyledLink.displayName = 'StyledLink';
+import { contentBox, containerStyle, absoluteCenter, headerStyle, iconStyle } from './styles';
 
 export default function Skill(): JSX.Element {
     return (
