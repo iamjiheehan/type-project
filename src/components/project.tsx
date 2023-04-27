@@ -39,9 +39,10 @@ export default function Project() {
                             <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/219938111-4de0b317-ed01-4858-9718-ed64c5cac06e.gif" alt="menu" />      
                         </div>
                         <div>
-                            <h4> - HTML,CSS/SCSS 만으로 구성된 정적인 웹사이트</h4>
-                            <h4> - 랜딩페이지가 아닌 상세페이지로써 모두 구현</h4>
-                            <h4> - iframe 태그를 이용한 구글지도 연동</h4>
+                            <br />
+                            <h5> - <strong>HTML,CSS/SCSS</strong>  만으로 구성된 정적인 웹사이트</h5>
+                            <h5> - 랜딩페이지가 아닌 <strong>상세페이지</strong> 모두 구현</h5>
+                            <h5> - <strong>iframe</strong> 태그를 이용한 구글지도 연동</h5>
                         </div>
                     </>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
@@ -64,9 +65,10 @@ export default function Project() {
                             <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231810572-1d4e44db-b073-429f-891c-21934e67c0fd.gif" alt="menu" />      
                         </div>
                         <div>
-                            <h4> - 바닐라 자바스크립트만으로 구성된 SPA 웹사이트 </h4>
-                            <h4> - 미디어 쿼리를 이용한 반응형 레이아웃 구현</h4>
-                            <h4> - storage를 이용하여 사용자의 검색결과를 저장 및 반영</h4>
+                            <br />
+                            <h5> - <strong>바닐라 자바스크립트</strong>으로 구성된 SPA 웹사이트 </h5>
+                            <h5> - <strong>미디어 쿼리</strong>를 이용한 반응형 레이아웃 구현</h5>
+                            <h5> - <strong>storage</strong>를 이용하여 사용자의 검색결과를 저장 및 반영</h5>
                         </div>
                     </>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
@@ -87,9 +89,10 @@ export default function Project() {
                             <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231513187-0acc500f-2562-40f0-8ca2-1412eb4ae12e.gif" alt="menu" />      
                         </div>
                         <div>
-                            <h4> - redux toolkit을 이용하여 게시판 기능 구현 </h4>
-                            <h4> - firebase를 이용하여 로그인 기능 구현</h4>
-                            <h4> - 도서 API를 이용하여 검색 기능 구현</h4>
+                            <br />
+                            <h5> - <strong>redux toolkit</strong> 을 이용하여 게시판 기능 구현 </h5>
+                            <h5> - <strong>firebase</strong>를 이용하여 로그인 기능 구현</h5>
+                            <h5> - 도서 <strong>API</strong>를 이용하여 검색 기능 구현</h5>
                         </div>
                     </>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
