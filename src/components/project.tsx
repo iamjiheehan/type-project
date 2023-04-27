@@ -1,23 +1,33 @@
 import React from 'react';
+
 import js from '../assets/images/javascript.png';
 import ts from '../assets/images/typescript.png';
 import css from '../assets/images/css.png';
 import sass from '../assets/images/sass.png';
 import html from '../assets/images/html.png';
-import styled from 'styled-components';
 import reactIco from '../assets/images/reactIco.png';
 
 import { contentBox, containerStyle, absoluteCenter, headerStyle, iconStyle, gifStyle, titleStyle, linkStyle, linkHoverStyle } from './styles';
 
+interface StyledLinkProps {
+    href: string;
+    target: string;
+    children: React.ReactNode;
+}
 
-const StyledLink = styled.a`
-    ${linkStyle}
-    &:hover {
-        ${linkHoverStyle}
-    }
-`;
+const StyledLink: React.FC<StyledLinkProps> = ({ href, target, children }) => {
+    return (
+        <a href={href} target={target} style={linkStyle}>
+            {children}
+        </a>
+    );
+};
+//FC : function component
+// StyledLinkProps 타입의 props를 받아서 ReactNode를 리턴하는 함수형 컴포넌트
 
-export default function Project() {
+StyledLink.displayName = 'StyledLink';
+
+export default function Project(): JSX.Element {
     return (
         <div>
             <div style={headerStyle}>
