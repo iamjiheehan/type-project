@@ -60,7 +60,6 @@ export default function Project(): JSX.Element {
                         <div style={titleStyle}>
                             <h3 style={titleStyle}>VINTERIOR</h3>
                             <img style={iconStyle} src={html} alt="html" />
-
                             <img style={iconStyle} src={css} alt="css" />
                             <img style={iconStyle} src={sass} alt="sass" />
                             <img style={iconStyle} src={js} alt="JavaScript" />
