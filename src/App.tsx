@@ -4,6 +4,7 @@ import Header from './components/header';
 import Project from './components/project';
 import Contact from './components/contact';
 import Intro from './components/intro';
+import Skill from './components/skill';
 
 import GlobalStyles from './Theme/GlobalStyles';
 
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           <Intro />
           <Contact />
           <Project />
+          <Skill />
         <h2 style={{textAlign:'center'}}>감사합니다</h2> <br />
         </Container>
     </div>
