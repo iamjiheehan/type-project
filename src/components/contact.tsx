@@ -18,6 +18,25 @@ export default function Project() {
     return (
         <>
             <div style={headerStyle}>
+                <h2 style={absoluteCenter}>Contact</h2>
+                <div style={contentBox}>
+                    <div style={columnStyle}>
+                        <h4>
+                            연락처 :  010-8608-8219
+                        </h4>
+                        <h4>
+                            이메일 : hatrix1014@gmail.com
+                        </h4>
+                        <h4>
+                            Github : <StyledLink href="https://github.com/iamjiheehan" target="_blank">깃허브 바로가기</StyledLink>
+                        </h4>
+                        <h4>
+                            Tistory : <StyledLink href="https://hans-j.tistory.com/" target="_blank">티스토리 바로가기</StyledLink>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div style={headerStyle}>
                 <h2 style={absoluteCenter}>학력사항</h2>
                 <div style={contentBox}>
                     <div style={columnStyle}>
@@ -50,25 +69,7 @@ export default function Project() {
                     </div>
                 </div>
             </div>
-            <div style={headerStyle}>
-                <h2 style={absoluteCenter}>Contact</h2>
-                <div style={contentBox}>
-                    <div style={columnStyle}>
-                        <h4>
-                            연락처 :  010-8608-8219
-                        </h4>
-                        <h4>
-                            이메일 : hatrix1014@gmail.com
-                        </h4>
-                        <h4>
-                            Github : <StyledLink href="https://github.com/iamjiheehan" target="_blank">깃허브 바로가기</StyledLink>
-                        </h4>
-                        <h4>
-                            Tistory : <StyledLink href="https://hans-j.tistory.com/" target="_blank">티스토리 바로가기</StyledLink>
-                        </h4>
-                    </div>
-                </div>
-            </div>
+
         </>
     );
 }

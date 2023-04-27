@@ -3,6 +3,7 @@ import myImage from '../assets/images/myImage.jpg';
 import { containerStyle, headerStyle, buttonStyle, imageStyle, introStyle,textStyle } from './styles';
 
 export default function Header() {
+    
     return (
         <div style={containerStyle}>
             <div style={headerStyle}>

@@ -7,7 +7,7 @@ import html from '../assets/images/html.png';
 import styled from 'styled-components';
 import reactIco from '../assets/images/reactIco.png';
 
-import { contentBox, containerStyle, absoluteCenter, headerStyle, buttonStyle, imageStyle, introStyle,textStyle, iconStyle, gifStyle, titleStyle, linkStyle, linkHoverStyle } from './styles';
+import { contentBox, containerStyle, absoluteCenter, headerStyle, iconStyle, gifStyle, titleStyle, linkStyle, linkHoverStyle } from './styles';
 
 
 const StyledLink = styled.a`
