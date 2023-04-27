@@ -106,7 +106,8 @@ export default function Project(): JSX.Element {
                             <img style={iconStyle} src={reactIco} alt="react" />
                             <img style={{ ...iconStyle, width: '5rem', marginBottom:'1rem', marginLeft:'0.5rem'}} src={netlify} alt="netlify" />
                         </div>
-                        <StyledLink href="https://the-unbook-club.web.app/" target="_blank">깃허브 바로가기</StyledLink>
+                        <StyledLink href="https://github.com/iamjiheehan/type-project" target="_blank">깃허브 바로가기</StyledLink>
+                        <StyledLink href="https://hans-j.tistory.com/217" target="_blank">배포일지</StyledLink>
                     </>
                 </div>
             </div>
