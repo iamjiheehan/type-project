@@ -7,7 +7,7 @@ import sass from '../assets/images/sass.png';
 import html from '../assets/images/html.png';
 import reactIco from '../assets/images/reactIco.png';
 
-import { contentBox, containerStyle, absoluteCenter, headerStyle, iconStyle, gifStyle, titleStyle, linkStyle, linkHoverStyle } from './styles';
+import { contentBox, containerStyle, absoluteCenter, headerStyle, iconStyle, gifStyle, titleStyle, linkStyle } from './styles';
 
 interface StyledLinkProps {
     href: string;
