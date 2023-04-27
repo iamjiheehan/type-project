@@ -76,7 +76,7 @@ export default function Project(): JSX.Element {
                         <div>
                             <br />
                             <h5> - <strong>바닐라 자바스크립트</strong>으로 구성된 SPA 웹사이트 </h5>
-                            <h5> - <strong>Node 서버</strong>를 활용한 서버 구축</h5>
+                            <h5> - <strong>Node.js</strong>를 활용한 서버 구축</h5>
                             <h5> - <strong>storage</strong>를 이용하여 사용자의 검색결과를 저장 및 반영</h5>
                         </div>
                     </>
