@@ -1,10 +1,7 @@
 import React from 'react';
-import phone from '../assets/images/phone.png';
-import tstory from '../assets/images/tstory.png';
-import git from '../assets/images/github.png';
 import styled from 'styled-components';
 
-import { contentBox, columnStyle, absoluteCenter, headerStyle, buttonStyle, imageStyle, introStyle,textStyle, iconStyle, gifStyle, titleStyle, linkStyle, linkHoverStyle } from './styles';
+import { contentBox, columnStyle, absoluteCenter, headerStyle,linkStyle, linkHoverStyle } from './styles';
 
 const StyledLink = styled.a`
     ${linkStyle}
@@ -13,7 +10,7 @@ const StyledLink = styled.a`
     }
 `;
 
-export default function Intro() {
+const Intro: React.FC = () => {
 
     return (
         <>
@@ -46,3 +43,5 @@ export default function Intro() {
         </>
     );
 }
+
+export default Intro;
