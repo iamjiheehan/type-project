@@ -8,6 +8,8 @@ import html from '../assets/images/html.png';
 import reactIco from '../assets/images/reactIco.png';
 import reduxToolkit from '../assets/images/reduxToolkit.png';
 import styledComponents from '../assets/images/styledComponents.png';
+import firebase from '../assets/images/firebase.png';
+import netlify from '../assets/images/netlify.png';
 
 import StyledLink from './StyledLink';
 
@@ -25,6 +27,7 @@ export default function Project(): JSX.Element {
                             <img style={iconStyle} src={html} alt="html" />
                             <img style={iconStyle} src={css} alt="css" />
                             <img style={iconStyle} src={sass} alt="sass" />
+                            <img style={{ ...iconStyle, width: '5rem', marginBottom:'1rem', marginLeft:'0.5rem'}} src={netlify} alt="netlify" />
                         </div>
                         <StyledLink href="https://jihee-breakfast-restaurant.netlify.app/" target="_blank">JIHEE'S BREAKFAST 바로가기</StyledLink>
                         <StyledLink href="https://github.com/iamjiheehan/Breakfast-Website" target="_blank">깃허브 바로가기</StyledLink>
@@ -49,7 +52,7 @@ export default function Project(): JSX.Element {
                             <img style={iconStyle} src={css} alt="css" />
                             <img style={iconStyle} src={sass} alt="sass" />
                             <img style={iconStyle} src={js} alt="JavaScript" />
-
+                            <img style={{ ...iconStyle, width: '5rem', marginBottom:'1rem', marginLeft:'0.5rem'}} src={netlify} alt="netlify" />
                         </div>
                         <StyledLink href="https://jihee-vinterior.netlify.app/" target="_blank">VINTERIOR 바로가기</StyledLink>
                         <StyledLink href="https://github.com/iamjiheehan/vanilla-interior" target="_blank">깃허브 바로가기</StyledLink>
@@ -75,6 +78,7 @@ export default function Project(): JSX.Element {
                             <img style={iconStyle} src={styledComponents} alt="styledComponents" />
                             <img style={iconStyle} src={js} alt="JavaScript" />
                             <img style={iconStyle} src={reactIco} alt="react" />
+                            <img style={{ ...iconStyle, width: '25px', padding:'0' }} src={firebase} alt="firebase" />
                             <img style={{ ...iconStyle, width: '100px', padding:'0' }} src={reduxToolkit} alt="reduxToolkit" />
                         </div>
                         <StyledLink href="https://the-unbook-club.web.app/" target="_blank">The Unbookclub 바로가기</StyledLink>
@@ -100,6 +104,7 @@ export default function Project(): JSX.Element {
                             <img style={iconStyle} src={ts} alt="Typescript" />
                             <img style={iconStyle} src={styledComponents} alt="styledComponents" />
                             <img style={iconStyle} src={reactIco} alt="react" />
+                            <img style={{ ...iconStyle, width: '5rem', marginBottom:'1rem', marginLeft:'0.5rem'}} src={netlify} alt="netlify" />
                         </div>
                         <StyledLink href="https://the-unbook-club.web.app/" target="_blank">깃허브 바로가기</StyledLink>
                     </>
