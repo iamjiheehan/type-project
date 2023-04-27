@@ -7,6 +7,7 @@ import sass from '../assets/images/sass.png';
 import html from '../assets/images/html.png';
 import reactIco from '../assets/images/reactIco.png';
 import reduxToolkit from '../assets/images/reduxToolkit.png';
+import styledComponents from '../assets/images/styledComponents.png';
 
 import { contentBox, containerStyle, absoluteCenter, headerStyle, iconStyle, gifStyle, titleStyle, linkStyle } from './styles';
 
@@ -87,6 +88,7 @@ export default function Project(): JSX.Element {
                             <h3 style={titleStyle}>The Unbookclub</h3>
                             <img style={iconStyle} src={html} alt="html" />
                             <img style={iconStyle} src={css} alt="css" />
+                            <img style={iconStyle} src={styledComponents} alt="styledComponents" />
                             <img style={iconStyle} src={js} alt="JavaScript" />
                             <img style={iconStyle} src={reactIco} alt="react" />
                             <img style={{ ...iconStyle, width: '100px', padding:'0' }} src={reduxToolkit} alt="reduxToolkit" />
@@ -112,6 +114,7 @@ export default function Project(): JSX.Element {
                         <div style={titleStyle}>
                             <h3 style={titleStyle}>Portfolio Project</h3>
                             <img style={iconStyle} src={ts} alt="Typescript" />
+                            <img style={iconStyle} src={styledComponents} alt="styledComponents" />
                             <img style={iconStyle} src={reactIco} alt="react" />
                         </div>
                         <StyledLink href="https://the-unbook-club.web.app/" target="_blank">깃허브 바로가기</StyledLink>
