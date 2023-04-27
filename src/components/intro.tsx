@@ -22,7 +22,7 @@ const Intro: React.FC = () => {
                             지속적으로 발전을 추구하는 프론트엔드 개발자 한지희 입니다. <br /><br />
                             목표 설정과 이를 성취하기 위한 노력을 즐기며, <br /><br />
                             두려움 없이 새로운 것을 배우고, <br /><br />끊임없이 더 나은 실력을 향해 열심히 공부합니다.<br /><br />
-                            <StyledLink href="https://hans-j.tistory.com/207" target="_blank">관련 블로그 게시글 바로가기</StyledLink>
+                            <StyledLink href="https://hans-j.tistory.com/202" target="_blank">관련 블로그 게시글 바로가기</StyledLink>
                         </h6>
                         <hr style={{ width: '50%', margin:'3rem auto'}} />
                         <h6>

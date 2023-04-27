@@ -6,6 +6,7 @@ import css from '../assets/images/css.png';
 import sass from '../assets/images/sass.png';
 import html from '../assets/images/html.png';
 import reactIco from '../assets/images/reactIco.png';
+import reduxToolkit from '../assets/images/reduxToolkit.png';
 
 import { contentBox, containerStyle, absoluteCenter, headerStyle, iconStyle, gifStyle, titleStyle, linkStyle } from './styles';
 
@@ -77,20 +78,21 @@ export default function Project(): JSX.Element {
                             <br />
                             <h5> - <strong>바닐라 자바스크립트</strong>로 구성된 SPA 웹사이트 </h5>
                             <h5> - <strong>Node.js</strong>를 활용한 서버 구축</h5>
-                            <h5> - <strong>storage</strong>를 이용하여 사용자의 검색결과를 저장 및 반영</h5>
+                            <h5> - <strong>Local storage</strong>를 이용하여 사용자의 검색 결과를 저장 및 반영</h5>
                         </div>
                     </>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
                     <>
-                        <div style={titleStyle}>
+                        <div style={{...titleStyle, alignItems: 'center'}}>
                             <h3 style={titleStyle}>The Unbookclub</h3>
                             <img style={iconStyle} src={html} alt="html" />
                             <img style={iconStyle} src={css} alt="css" />
                             <img style={iconStyle} src={js} alt="JavaScript" />
                             <img style={iconStyle} src={reactIco} alt="react" />
+                            <img style={{ ...iconStyle, width: '100px', padding:'0' }} src={reduxToolkit} alt="reduxToolkit" />
                         </div>
                         <StyledLink href="https://the-unbook-club.web.app/" target="_blank">The Unbookclub 바로가기</StyledLink>
-                        <StyledLink href="https://the-unbook-club.web.app/" target="_blank">깃허브 바로가기</StyledLink>
+                        <StyledLink href="https://github.com/iamjiheehan/unbookclub" target="_blank">깃허브 바로가기</StyledLink>
                         <StyledLink href="https://hans-j.tistory.com/212?category=1072545" target="_blank">배포일지</StyledLink>
                         <div style={containerStyle}>
                             <img style={gifStyle} src="https://user-images.githubusercontent.com/102779433/231512655-5d531fa7-e3bb-445a-800c-6e9a03cedcc3.gif" alt="menu" />      
@@ -99,9 +101,10 @@ export default function Project(): JSX.Element {
                         </div>
                         <div>
                             <br />
-                            <h5> - <strong>redux toolkit</strong> 을 이용하여 게시판 기능 구현 </h5>
-                            <h5> - <strong>firebase</strong>를 이용하여 로그인 기능 구현</h5>
-                            <h5> - 도서 <strong>API</strong>를 이용하여 검색 기능 구현</h5>
+                            <h5> - <strong>redux toolkit</strong> 을 이용하여 <strong>게시판, 장바구니 </strong> 기능 구현 </h5>
+                            <h5> - <strong>firebase</strong>를 이용하여 <strong>로그인</strong> 기능 구현</h5>
+                            <h5> - <strong>Context API</strong>를 이용하여 회원정보 전역 공유</h5>
+                            <h5> - <strong>RESTful</strong> HTTP 요청을 사용하여 <strong>Kakao API</strong>를 적용한 <strong>검색</strong> 기능 구현</h5>
                         </div>
                     </>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
