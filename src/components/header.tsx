@@ -4,14 +4,7 @@ import { containerStyle, headerStyle, imageStyle, introStyle,textStyle } from '.
 
 import StyledLink from './StyledLink';
 
-
 const Header : React.FC = () => {
-    const pdfPath = 'https://drive.google.com/file/d/1Kx9DjLAIBUSYbV-NvwhkHlPv8Sy51CEr/view?usp=share_link';
-
-    const handleButtonClick = (): void => {
-        window.open(pdfPath, '_blank');
-    };
-
     return (
         <div style={containerStyle}>
             <div style={headerStyle}>
@@ -22,7 +15,7 @@ const Header : React.FC = () => {
                     </div>
                     <div>
                         <h5>
-                            <StyledLink href="https://drive.google.com/file/d/1kXn6rGmLhnzOvUTcXSH7iZR-NPgNtLDq/view?usp=share_link" target="_blank">pdf 출력</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1Kx9DjLAIBUSYbV-NvwhkHlPv8Sy51CEr/view?usp=share_link" target="_blank">pdf 출력</StyledLink>
                         </h5>
                     </div>
                 </div>

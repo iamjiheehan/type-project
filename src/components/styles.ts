@@ -53,12 +53,12 @@ export const gifStyle: React.CSSProperties = {
     width: '20rem',
     height: '10rem',
     marginBottom: '1rem',
-    marginTop: '1rem',
+    marginTop: '2rem',
 };
 
-export const linkStyle = {
+export const linkStyle : React.CSSProperties = {
     padding: '0.5rem',
-    marginRight: '1rem',
+    margin: '0.5rem 1rem 0.5rem 0',
     textDecoration: 'none',
     color: 'black',
     fontWeight: 'bold',
