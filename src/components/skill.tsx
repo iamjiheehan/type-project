@@ -9,6 +9,7 @@ import reactIco from '../assets/images/reactIco.png';
 import reduxToolkit from '../assets/images/reduxToolkit.png';
 import github from '../assets/images/github.png';
 import vscode from '../assets/images/vscode.png';
+import styledComponents from '../assets/images/styledComponents.png';
 
 import { contentBox, containerStyle, absoluteCenter, headerStyle, iconStyle } from './styles';
 
@@ -22,6 +23,7 @@ export default function Skill(): JSX.Element {
                         <img style={{ ...iconStyle, width: '50px' }} src={html} alt="html" />
                         <img style={{ ...iconStyle, width: '50px' }} src={css} alt="css" />
                         <img style={{ ...iconStyle, width: '50px' }} src={sass} alt="sass" />
+                        <img style={iconStyle} src={styledComponents} alt="styledComponents" />
                         <img style={{ ...iconStyle, width: '50px' }} src={js} alt="JavaScript" />
                         <img style={{ ...iconStyle, width: '50px' }} src={ts} alt="Typescript" />
                         <img style={{ ...iconStyle, width: '50px' }} src={reactIco} alt="react" />

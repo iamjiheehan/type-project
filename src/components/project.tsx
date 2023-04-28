@@ -102,7 +102,6 @@ export default function Project(): JSX.Element {
                         <div style={titleStyle}>
                             <h3 style={titleStyle}>Portfolio Project</h3>
                             <img style={iconStyle} src={ts} alt="Typescript" />
-                            <img style={iconStyle} src={styledComponents} alt="styledComponents" />
                             <img style={iconStyle} src={reactIco} alt="react" />
                             <img style={{ ...iconStyle, width: '5rem', marginBottom:'1rem', marginLeft:'0.5rem'}} src={netlify} alt="netlify" />
                         </div>
