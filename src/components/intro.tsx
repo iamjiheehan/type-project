@@ -6,7 +6,7 @@ const Intro:React.FC = () => {
     return (
         <>
             <div style={{textAlign:"left"}}>
-                <AbsoluteCenter>자기소개</AbsoluteCenter>
+                <AbsoluteCenter><h2>자기소개</h2></AbsoluteCenter>
                 <ContentBox>
                     <Column>
                         <h5>
@@ -45,7 +45,7 @@ const Intro:React.FC = () => {
                         <h5>
                             최근에는 AI를 활용한 효율적인 개발과 Typescript에 관심을 가지고 있습니다.<br /><br />
                             많은 기업들이 Typescript를 도입하는 이유를 공부하며,<br /><br />
-                            <StyledLink href="https://careerly.co.kr/home" target="_blank">커리어리</StyledLink>같은 개발자 커뮤니티를 통해 <br /><br />최신 트렌드를 지속적으로 파악하고자 노력하고 있습니다.<br /><br />
+                            <strong>커리어리</strong> 와 <strong>미디엄</strong>같은 개발자 커뮤니티를 통해 <br /><br />최신 트렌드를 지속적으로 파악하고자 노력하고 있습니다.<br /><br />
                             <StyledLink href="https://hans-j.tistory.com/200" target="_blank">관련 블로그 게시글 바로가기</StyledLink>
                         </h5>
                     </Column>

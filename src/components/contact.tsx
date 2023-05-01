@@ -2,14 +2,14 @@ import React from 'react';
 
 import StyledLink from '../styles/StyledLink';
 
-import { Container, Intro, Text, Image, AbsoluteCenter, ContentBox, Column  } from '../styles/styled';
+import { AbsoluteCenter, ContentBox, Column  } from '../styles/styled';
 
 
 const Project: React.FC = () => {
     return (
         <>
             <div style={{textAlign:"left"}}>
-                <AbsoluteCenter>Contact</AbsoluteCenter>
+                <AbsoluteCenter><h2>Contact</h2></AbsoluteCenter>
                 <ContentBox>
                     <Column>
                         <h5>

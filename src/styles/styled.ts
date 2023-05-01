@@ -1,4 +1,40 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
+
+
+const sizes = {
+    phone: 768,
+};
+
+const media = {
+    phone: (styles: TemplateStringsArray) => css`
+        @media (max-width: ${sizes.phone}px) {
+            ${styles}
+        }
+    `,
+};
+
+export const ContentBox = styled.div`
+    border: 1px solid #ccc;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin: 4rem 1rem;
+
+    ${media.phone`
+        padding: 1rem 0.5rem;
+    `}
+`;
+
+export const Text = styled.div`
+    margin: 0;
+    padding-right: 20px;
+
+    ${media.phone`
+        padding: 1rem 2.5rem;
+        textStyle: 0.2rem;
+    `}
+`;
 
 export const Container = styled.div`
     display: flex;
@@ -12,12 +48,24 @@ export const Intro = styled.div`
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
+
+    ${media.phone`
+        justify-content: flex-end;
+    `}
 `;
 
 export const Title = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
+
+    ${media.phone`
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: stretch;
+        flex-direction: column;
+    `}
 `;
 
 export const Column = styled.div`
@@ -27,12 +75,6 @@ export const Column = styled.div`
     align-items: flex-start;
     flex-wrap: wrap;
     margin: 1rem;
-`;
-
-export const Text = styled.p`
-    margin: 0;
-    padding-right: 20px;
-    color: red;
 `;
 
 export const Image = styled.img`
@@ -50,32 +92,12 @@ export const Gif = styled.img`
     height: 10rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
+
+    ${media.phone`
+        padding : 0.5rem;
+    `}
 `;
 
-export const Link = styled.a`
-    padding: 0.5rem;
-    margin: 0.5rem 1rem 0.5rem 0;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    transition: color 0.2s ease-out;
-
-    &:hover {
-        color: #2980b9;
-        text-decoration: none;
-    }
-`;
-
-export const ContentBox = styled.div`
-    border: 1px solid #ccc;
-    padding: 3rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-    margin: 4rem 1rem;
-`;
 
 export const AbsoluteCenter = styled.div`
     text-align: center;

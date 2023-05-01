@@ -1,20 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
+import styled from 'styled-components';
 
-const linkStyle : React.CSSProperties = {
-    padding: '0.5rem',
-    margin: '0.5rem 1rem 0.5rem 0',
-    textDecoration: 'none',
-    color: 'black',
-    fontWeight: 'bold',
-    cursor: 'pointer',
-    boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.5)',
-    transition: 'color 0.2s ease-out',
-};
+const StyledAnchor = styled.a`
+    padding: 0.5rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: color 0.2s ease-out;
 
-const linkHoverStyle = {
-    color: '#2980b9',
-    textDecoration: 'none',
-};
+    &:hover {
+        color: #3498db;
+        text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        margin-top: 1rem;
+        color: #2980b9;
+        display: inline-block;
+    }
+`;
 
 interface StyledLinkProps {
     href: string;
@@ -23,22 +31,10 @@ interface StyledLinkProps {
 }
 
 const StyledLink: React.FC<StyledLinkProps> = ({ href, target, children }) => {
-const [isHovered, setIsHovered] = useState(false);
-
-    const handleMouseEnter = (): void => {
-        setIsHovered(true);
-    };
-
-    const handleMouseLeave = (): void => {
-        setIsHovered(false);
-    };
-
-    const linkStyleToApply = isHovered ? { ...linkStyle, ...linkHoverStyle } : linkStyle;
-
     return (
-        <a href={href} target={target} style={linkStyleToApply} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <StyledAnchor href={href} target={target}>
         {children}
-        </a>
+        </StyledAnchor>
     );
 };
 

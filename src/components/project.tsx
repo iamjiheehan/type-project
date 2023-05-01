@@ -23,10 +23,11 @@ export default function Project(): JSX.Element {
                 <ContentBox>
                     <Title>
                         <h3>JIHEE'S BREAKFAST</h3>
-                        <Icon src={html} alt="html" />
-                        <Icon src={css} alt="css" />
-                        <Icon src={sass} alt="sass" />
-                        <Icon style={{width: '5rem', marginBottom:'1rem', marginLeft:'0.5rem'}} src={netlify} alt="netlify" />
+                        <div>
+                            <Icon src={html} alt="html" />
+                            <Icon src={css} alt="css" />
+                            <Icon src={sass} alt="sass" />
+                        </div>
                     </Title>
                     <h6>
                         <StyledLink href="https://jihee-breakfast-restaurant.netlify.app/" target="_blank">JIHEE'S BREAKFAST 바로가기</StyledLink>
@@ -45,42 +46,44 @@ export default function Project(): JSX.Element {
                         <h5> - <strong>iframe</strong> 태그를 이용한 구글지도 연동</h5>
                     </div>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
-                    <>
-                        <Title>
-                            <h3>VINTERIOR</h3>
+                    <Title>
+                        <h3>VINTERIOR</h3>
+                        <div>
                             <Icon src={html} alt="html" />
                             <Icon src={css} alt="css" />
                             <Icon src={sass} alt="sass" />
                             <Icon src={js} alt="JavaScript" />
-                            <Icon style={{ width: '5rem', marginBottom:'1rem', marginLeft:'0.5rem'}} src={netlify} alt="netlify" />
-                        </Title>
-                        <h6>
-                            <StyledLink href="https://jihee-vinterior.netlify.app/" target="_blank">VINTERIOR 바로가기</StyledLink>
-                            <StyledLink href="https://github.com/iamjiheehan/vanilla-interior" target="_blank">깃허브 바로가기</StyledLink>
-                            <StyledLink href="https://hans-j.tistory.com/203" target="_blank">배포일지</StyledLink>
-                        </h6>
-                        <Container>
-                            <Gif src="https://user-images.githubusercontent.com/102779433/231810527-e6af320c-bdd1-4972-bb66-c8d7e81fb732.gif" alt="menu" />      
-                            <Gif src="https://user-images.githubusercontent.com/102779433/231810553-15af784a-2387-4145-92ea-2200a0756bae.gif" alt="menu" />      
-                            <Gif src="https://user-images.githubusercontent.com/102779433/231810572-1d4e44db-b073-429f-891c-21934e67c0fd.gif" alt="menu" />      
-                        </Container>
-                        <div>
-                            <br />
-                            <h5> - <strong>바닐라 자바스크립트</strong>로 구성된 SPA 웹사이트 </h5>
-                            <h5> - <strong>Node.js</strong>를 활용한 서버 구축</h5>
-                            <h5> - <strong>Local storage</strong>를 이용하여 사용자의 검색 결과를 저장 및 반영</h5>
                         </div>
-                    </>
+                        
+                    </Title>
+                    <h6>
+                        <StyledLink href="https://jihee-vinterior.netlify.app/" target="_blank">VINTERIOR 바로가기</StyledLink>
+                        <StyledLink href="https://github.com/iamjiheehan/vanilla-interior" target="_blank">깃허브 바로가기</StyledLink>
+                        <StyledLink href="https://hans-j.tistory.com/203" target="_blank">배포일지</StyledLink>
+                    </h6>
+                    <Container>
+                        <Gif src="https://user-images.githubusercontent.com/102779433/231810527-e6af320c-bdd1-4972-bb66-c8d7e81fb732.gif" alt="menu" />      
+                        <Gif src="https://user-images.githubusercontent.com/102779433/231810553-15af784a-2387-4145-92ea-2200a0756bae.gif" alt="menu" />      
+                        <Gif src="https://user-images.githubusercontent.com/102779433/231810572-1d4e44db-b073-429f-891c-21934e67c0fd.gif" alt="menu" />      
+                    </Container>
+                    <div>
+                        <br />
+                        <h5> - <strong>바닐라 자바스크립트</strong>로 구성된 SPA 웹사이트 </h5>
+                        <h5> - <strong>Node.js</strong>를 활용한 서버 구축</h5>
+                        <h5> - <strong>Local storage</strong>를 이용하여 사용자의 검색 결과를 저장 및 반영</h5>
+                    </div>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
                     <Title style={{ alignItems: 'center'}}>
                         <h3>The Unbookclub</h3>
-                        <Icon src={html} alt="html" />
-                        <Icon src={css} alt="css" />
-                        <Icon src={styledComponents} alt="styledComponents" />
-                        <Icon src={js} alt="JavaScript" />
-                        <Icon src={reactIco} alt="react" />
-                        <Icon style={{width: '25px', padding:'0' }} src={firebase} alt="firebase" />
-                        <Icon style={{width: '100px', padding:'0' }} src={reduxToolkit} alt="reduxToolkit" />
+                            <div>
+                                <Icon src={html} alt="html" />
+                                <Icon src={css} alt="css" />
+                                <Icon src={styledComponents} alt="styledComponents" />
+                                <Icon src={js} alt="JavaScript" />
+                                <Icon src={reactIco} alt="react" />
+                                <Icon style={{width: '25px', padding:'0' }} src={firebase} alt="firebase" />
+                                <Icon style={{width: '100px', padding:'0' }} src={reduxToolkit} alt="reduxToolkit" />
+                            </div>
                     </Title>
                     <h6>
                         <StyledLink href="https://the-unbook-club.web.app/" target="_blank">The Unbookclub 바로가기</StyledLink>
@@ -102,10 +105,11 @@ export default function Project(): JSX.Element {
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
                     <Title>
                         <h3>Portfolio Project</h3>
-                        <Icon src={ts} alt="Typescript" />
-                        <Icon src={styledComponents} alt="styledComponents" />
-                        <Icon src={reactIco} alt="react" />
-                        <Icon style={{ width: '5rem', marginBottom:'1rem', marginLeft:'0.5rem'}} src={netlify} alt="netlify" />
+                        <div>
+                            <Icon src={ts} alt="Typescript" />
+                            <Icon src={styledComponents} alt="styledComponents" />
+                            <Icon src={reactIco} alt="react" />
+                        </div>
                     </Title>
                     <h6>
                         <StyledLink href="https://github.com/iamjiheehan/type-project" target="_blank">깃허브 바로가기</StyledLink>
