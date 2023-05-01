@@ -9,7 +9,6 @@ import reactIco from '../assets/images/reactIco.png';
 import reduxToolkit from '../assets/images/reduxToolkit.png';
 import styledComponents from '../assets/images/styledComponents.png';
 import firebase from '../assets/images/firebase.png';
-import netlify from '../assets/images/netlify.png';
 
 import StyledLink from '../styles/StyledLink';
 

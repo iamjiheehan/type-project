@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const StyledAnchor = styled.a`
     padding: 0.5rem;
     text-decoration: none;
+    margin-right: 1.5rem;
     color: black;
     font-weight: bold;
     cursor: pointer;
