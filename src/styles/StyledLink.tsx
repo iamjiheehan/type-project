@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 const StyledAnchor = styled.a`
     padding: 0.5rem;
-    margin: 0.5rem 1rem 0.5rem 0;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -19,7 +18,7 @@ const StyledAnchor = styled.a`
 
     @media (max-width: 768px) {
         font-size: 14px;
-        margin-top: 1rem;
+        margin: 0.5rem 1rem 0.5rem 0;
         color: #2980b9;
     }
 `;
