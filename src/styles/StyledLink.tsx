@@ -10,6 +10,7 @@ const StyledAnchor = styled.a`
     cursor: pointer;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     transition: color 0.2s ease-out;
+    display: inline-block;
 
     &:hover {
         color: #3498db;
@@ -20,7 +21,6 @@ const StyledAnchor = styled.a`
         font-size: 14px;
         margin-top: 1rem;
         color: #2980b9;
-        display: inline-block;
     }
 `;
 
