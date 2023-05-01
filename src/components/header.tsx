@@ -1,29 +1,30 @@
 import React from 'react';
 import myImage from '../assets/images/myImage.jpg';
-import { containerStyle, headerStyle, imageStyle, introStyle,textStyle } from './styles';
 
-import StyledLink from './StyledLink';
+import { Container, Intro, Text, Image  } from '../styles/styled';
+
+import StyledLink from '../styles/StyledLink';
 
 const Header : React.FC = () => {
     return (
-        <div style={containerStyle}>
-            <div style={headerStyle}>
-                <div style={introStyle}>
-                    <div>
-                        <h2 style={textStyle}>내일이 더 기대되는</h2>
-                        <h2 style={textStyle}>프론트 엔드 개발자 한지희</h2>
-                    </div>
+        <Container>
+            <div style={{textAlign:"left"}}>
+                <Intro>
+                    <Text>
+                        <h2>내일이 더 기대되는</h2>
+                        <h2>프론트 엔드 개발자 한지희</h2>
+                    </Text>
                     <div>
                         <h5>
                             <StyledLink href="https://drive.google.com/file/d/1Kx9DjLAIBUSYbV-NvwhkHlPv8Sy51CEr/view?usp=share_link" target="_blank">pdf 출력</StyledLink>
                         </h5>
                     </div>
-                </div>
+                </Intro>
             </div>
             <div>
-                <img style={imageStyle} src={myImage} alt="MyImage" />
+                <Image src={myImage} alt="MyImage" />
             </div>
-        </div>
+        </Container>
     );
 }
 

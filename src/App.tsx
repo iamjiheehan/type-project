@@ -6,12 +6,14 @@ import Contact from './components/contact';
 import Intro from './components/intro';
 import Skill from './components/skill';
 
-import GlobalStyles from './Theme/GlobalStyles';
+import GlobalStyles from './styles/GlobalStyles';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Container from 'react-bootstrap/Container';
 
 const App: React.FC = () => {
+
   return (
     <div className="App">
       <GlobalStyles />
