@@ -29,7 +29,6 @@ export default function Skill(): JSX.Element {
                         <Icon style={{width: '50px' }} src={reactIco} alt="react" />
                         <Icon style={{width: '130px' }} src={reduxToolkit} alt="reduxToolkit" />
                         <Icon style={{width: '50px' }} src={github} alt="github" />
-                        <Icon style={{width: '50px' }} src={vscode} alt="vscode" />
                     </Container>
                 </ContentBox>
             </div>

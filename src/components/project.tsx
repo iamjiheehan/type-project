@@ -41,7 +41,6 @@ export default function Project(): JSX.Element {
                     <div>
                         <br />
                         <h5> - <strong>HTML,CSS/SCSS</strong>  만으로 구성된 정적인 웹사이트</h5>
-                        <h5> - 랜딩페이지가 아닌 <strong>상세페이지</strong> 모두 구현</h5>
                         <h5> - <strong>iframe</strong> 태그를 이용한 구글지도 연동</h5>
                     </div>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
@@ -96,10 +95,11 @@ export default function Project(): JSX.Element {
                     </Container>
                     <div>
                         <br />
-                        <h5> - <strong>redux toolkit</strong> 을 이용하여 <strong>게시판, 장바구니 </strong> 기능 구현 </h5>
-                        <h5> - <strong>firebase</strong>를 이용하여 <strong>로그인</strong> 기능 구현</h5>
-                        <h5> - <strong>Context API</strong>를 이용하여 회원정보 전역 공유</h5>
-                        <h5> - <strong>RESTful</strong> HTTP 요청을 사용하여 <strong>Kakao API</strong>를 적용한 <strong>검색</strong> 기능 구현</h5>
+                        <h5> - <strong>firestore Database</strong> 을 이용하여 <strong>게시판</strong> 기능 구현 </h5>
+                        <h5> - <strong>firesbase</strong>를 이용하여 <strong>로그인</strong> 기능 구현</h5>
+                        <h5> - <strong>Context API</strong>를 이용하여 <strong>마이페이지</strong>기능 구현</h5>
+                        <h5> - <strong>Redux toolkit</strong>상태관리를 이용하여 유저가 선택한 도서 목록을 <strong>마이페이지</strong>에서 호출하는 검색 기능 구현</h5>
+                        <h5> - <strong>Kakao API</strong>를 적용한 <strong>검색</strong> 기능 구현</h5>
                     </div>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
                     <Title>
