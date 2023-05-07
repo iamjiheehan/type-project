@@ -100,7 +100,7 @@ export default function Project(): JSX.Element {
                         <h5> - <strong>Context API</strong>를 이용하여 <strong>마이페이지</strong>기능 구현</h5>
                         <h5> - <strong>Redux toolkit</strong>상태관리를 이용하여 사용자가 선택한 도서 목록을 <strong>마이페이지</strong>에서 호출 기능 구현</h5>
                         <h5> - <strong>Local storage</strong>를 이용하여 <strong>도서목록 저장</strong> 기능 구현</h5>
-                        <h5> - <strong>Kakao API</strong>를 적용한 <strong>검색</strong> 기능 구현</h5>
+                        <h5> - <strong>Axios</strong>를 이용하여 <strong>Kakao API</strong>도서 검색 기능 구현</h5>
                     </div>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
                     <Title>
