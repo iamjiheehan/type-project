@@ -115,6 +115,10 @@ export default function Project(): JSX.Element {
                         <StyledLink href="https://github.com/iamjiheehan/type-project" target="_blank">깃허브 바로가기</StyledLink>
                         <StyledLink href="https://hans-j.tistory.com/217" target="_blank">배포일지</StyledLink>
                     </h6>
+                    <div>
+                        <br />
+                        <h5> - <strong>Typescript</strong> 을 이용하여 이력서 웹사이트 구현 </h5>
+                    </div>
                 </ContentBox>
             </div>
         </>
