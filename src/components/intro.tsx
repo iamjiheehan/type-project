@@ -18,35 +18,13 @@ const Intro:React.FC = () => {
                             <br />
                             끊임없이 더 나은 실력을 향해 열심히 공부합니다.
                             <br />
-                            <br />
-                            <StyledLink href="https://hans-j.tistory.com/202" target="_blank">
-                                관련 블로그 게시글 바로가기
-                            </StyledLink>
-                        </h5>
-                        <hr style={{ width: '50%', margin: '3rem auto' }} />
-                        <h5>
-                            저는 협업에 중점을 두고 직관적이며 재사용 가능한 코드 작성을 지향합니다. <br />
-                            <br />
-                            이를 통해 팀원들과 원활한 커뮤니케이션을 이루며, <br />
-                            <br />
-                            효율적인 프로젝트 진행을 도모하고자 합니다. <br />
-                            <br />
-                            <StyledLink href="https://hans-j.tistory.com/214" target="_blank">
-                                관련 블로그 게시글 바로가기
-                            </StyledLink>
-                        </h5>
-                        <hr style={{ width: '50%', margin:'3rem auto'}} />
-                        <h5>
-                            저는 협업에 중점을 두고 직관적이며 재사용 가능한 코드 작성을 지향합니다. <br /><br />
-                            이를 통해 팀원들과 원활한 커뮤니케이션을 이루며, <br /><br />효율적인 프로젝트 진행을 도모하고자 합니다. <br /><br />
-                            <StyledLink href="https://hans-j.tistory.com/214" target="_blank">관련 블로그 게시글 바로가기</StyledLink>
                         </h5>
                         <hr style={{ width: '50%', margin:'3rem auto'}} />
                         <h5>
                             최근에는 AI를 활용한 효율적인 개발과 Typescript에 관심을 가지고 있습니다.<br /><br />
                             많은 기업들이 Typescript를 도입하는 이유를 공부하며,<br /><br />
                             <strong>커리어리</strong> 와 <strong>미디엄</strong>같은 개발자 커뮤니티를 통해 <br /><br />최신 트렌드를 지속적으로 파악하고자 노력하고 있습니다.<br /><br />
-                            <StyledLink href="https://hans-j.tistory.com/200" target="_blank">관련 블로그 게시글 바로가기</StyledLink>
+                            <StyledLink href="https://hans-j.tistory.com/199?category=1095632" target="_blank">관련 블로그 게시글 바로가기</StyledLink>
                         </h5>
                     </Column>
                 </ContentBox>

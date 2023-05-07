@@ -98,13 +98,13 @@ export default function Project(): JSX.Element {
                         <h5> - <strong>firestore Database</strong> 을 이용하여 <strong>게시판</strong> 기능 구현 </h5>
                         <h5> - <strong>firesbase</strong>를 이용하여 <strong>로그인</strong> 기능 구현</h5>
                         <h5> - <strong>Context API</strong>를 이용하여 <strong>마이페이지</strong>기능 구현</h5>
-                        <h5> - <strong>Redux toolkit</strong>상태관리를 이용하여 유저가 선택한 도서 목록을 <strong>마이페이지</strong>에서 호출하는 기능 구현</h5>
+                        <h5> - <strong>Redux toolkit</strong>상태관리를 이용하여 사용자가 선택한 도서 목록을 <strong>마이페이지</strong>에서 호출하는 기능 구현</h5>
                         <h5> - <strong>Local storage</strong>를 이용하여 <strong>도서목록 저장</strong> 기능 구현</h5>
                         <h5> - <strong>Kakao API</strong>를 적용한 <strong>검색</strong> 기능 구현</h5>
                     </div>
                     <hr style={{ width: '50%', margin:'3rem auto'}} />
                     <Title>
-                        <h3>Portfolio Project</h3>
+                        <h3>Resume Project</h3>
                         <div>
                             <Icon src={ts} alt="Typescript" />
                             <Icon src={styledComponents} alt="styledComponents" />
